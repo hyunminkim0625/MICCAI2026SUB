@@ -1,4 +1,4 @@
-# MAC: Multi-Annotator & Multi-Camera Dataset (MICCAI 2026 Submission)
+# MAC Dataset (MICCAI 2026 Submission)
 
 This repository contains the code and dataset preview for our MICCAI 2026 submission.
 
