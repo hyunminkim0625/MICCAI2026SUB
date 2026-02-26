@@ -13,7 +13,7 @@ def layer_wise_decay(named_parameters, num_layers, base_lr, weight_decay=1e-2, n
         n = name.lower()
         return (
             n.endswith(".bias") or
-            ".norm" in n or        # timm norm 모듈 공통 처리
+            ".norm" in n or        
             ".bn" in n or
             ".ln" in n or
             "pos_embed" in n or
